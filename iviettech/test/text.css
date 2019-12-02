@@ -1,0 +1,406 @@
+a{
+	text-decoration: none;
+}
+.container1{
+	width: 100%;
+	border: 1px solid;
+	margin:auto;
+	background-color:#C93438;
+}
+.content1{
+	width: 66%;
+	height: 100%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 25% 75%;
+	grid-template-areas: 
+	"left1 right1";
+}
+.left1{
+	grid-area: left1;
+	width: 100%;
+	border: 1px dotted white;
+	margin-left: 2%;
+	margin-top: 6%;
+	background-color:#C93438;
+	margin-bottom: 6%;
+}
+.right1{
+	grid-area: right1;
+	width: 95%;
+	border: 1px dotted white;
+	margin-left: 4%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+
+	background-color:#C93438;
+}
+.left1head{
+	width: 100%;
+}
+.left1head h2{
+	background-image: url(dkiconbg.png);
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	height: 44px;
+	padding-top: 9px;
+	margin-left: 3%;
+	color: white;
+}
+.left1foot{
+	width: 100%;
+}
+.form-content input[type="text"],input[type="email"]{
+	margin-bottom: 2%;
+	padding: 2%;
+	width: 94%;
+}
+.form-content input[type="submit"]{
+	width: 100%;
+	padding: 2%;
+	background-color: yellow;
+	height: 35px;
+	border:1px solid;
+}
+.form-content select{
+	width: 100%;
+	margin-bottom: 2%;
+	padding: 2%;
+}
+.form-content textarea{
+	width: 95%;
+	margin-bottom: 2%;
+	padding: 2%;
+}
+.form1{
+	margin-left: 3%;
+	border-top: 1px dotted white;
+	padding-top: 3%;
+	margin-right: 3%;
+}
+.right1head h2{
+	background-image: url(ctdticonbg.png);
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	height: 44px;
+	padding-top: 9px;
+	margin-left: 3%;
+	color: white;
+}
+.right1foot{
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	border-top: 1px dotted white;
+
+}
+.right1foot-flex{
+	width: 20%;
+	margin-top: 3%;
+}
+.right1foot-flex img{
+	max-width: 100%;
+
+}
+.right1foot h3{
+	color: white;
+	text-align: center;
+}
+.right1foot p{
+	font-size: 90%;
+	margin: -1%;
+	text-align: center;
+	color: white;
+}
+@media screen and (max-width: 768px) {
+	.content1{
+		width: 100%;
+		display: grid;
+		grid-template-rows: 2,auto;
+		grid-template-columns: 100%;
+		grid-template-areas: 
+		"right1"
+		"left1"
+		;
+	}
+	.right1foot{
+		flex-direction: column;
+	}
+	.right1foot-flex{
+		max-width: 100%;
+	}
+	
+}
+.container3{
+	width: 100%;
+	border: 1px solid;
+	margin:auto;
+	background-color:#C93438;
+}
+.content3{
+	width: 66%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 65% 35%;
+	grid-template-areas: 
+	"left3 right3";
+}
+.left3{	
+	grid-area: left3;
+	width: 96%;/*
+	border: 1px dotted white;*/
+	background-color:#C93438;
+	margin-top: 1%;
+	margin-left: 1%;
+
+}
+.right3{
+	grid-area: right3;
+	width: 100%;
+	border: 1px dotted white;
+	background-color:#C93438;
+	margin-top:2%;
+	margin-bottom: 2%;
+
+	border-radius: 5px;
+}
+.left3head h2{
+	background-image: url(lkgiconbg.png);
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	height: 44px;
+	padding-top: 9px;
+	margin-left: 3%;
+	color: white;
+	padding-bottom: 2%;
+	border-bottom: 1px dotted white;
+	margin-right: 2%;
+
+}
+.right3head h2{
+	background-image: url(ckkiconbg.png);
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	height: 44px;
+	padding-top: 9px;
+	margin-left: 3%;
+	color: white;
+	margin-right: 2%;
+	padding-bottom: 3.5%;
+	border-bottom: 1px dotted white;
+}
+.left3head{
+	width: 100%;
+}
+.left3foot{
+	width: 100%;
+}
+.right3head{
+	width: 100%;
+}
+.right3foot{
+	width: 100%;
+}
+
+.clear{
+	clear: both;
+}
+.right3footitem{
+	width: 93%;
+	display: grid;
+	grid-template-columns:20% 70%;
+	margin-left:5%;
+	margin-bottom: 3%;
+	border-bottom: 1px dotted white;
+}
+.right3footitemimg img{
+	padding-top: 10%;
+
+}
+.right3footitemimg p{
+	margin:1%;
+	color: white;
+}
+.left3foot{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 50% 50%;
+	
+}
+.left3footitem{
+	width: 93%;
+	display: grid;
+	grid-template-columns:25% 70%;
+	margin-left:5%;
+	margin-bottom: 3%;
+}
+.left3footitemimg p{
+	margin:1%;
+	color: white;
+}
+.left3footitemimg img{
+	padding-top: 4%;
+	max-width: 90%;
+
+}
+.container4{
+	width: 100%;
+	border: 1px solid;
+	margin:auto;
+	
+}
+.content4{
+	width: 66%;
+	margin:auto;
+	display: grid;
+	grid-template-columns: 30% 35% 35%;
+	padding-top: 2%;
+}
+.left4 img{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	max-width: 100%;
+	margin-top: 45px;
+}
+.center41 img{
+	width: 229px;
+	height: 47px;
+	padding: 1%;
+	padding-top: 6%;
+	padding-bottom: 3%;
+	margin-left: 2%;
+}
+.center42{
+	border-top: 1px dotted gray;
+	margin-left: 2%;
+}
+.right42 img{
+	max-width: 100%;
+}
+.right41 h2{
+	background-image: url(knvcticonbg.png);
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	height: 44px;
+	padding-top: 9px;
+	border-bottom: 1px dotted gray;
+}
+.center4{
+	width: 95%;
+}
+.right4{
+	width: 90%;
+}
+.left4{
+	width: 90%;
+}/*
+.aaaa{
+	float: left;
+}*/
+.container5 img{
+	width: 100%;
+}
+.content5{
+	width: 66%;
+	margin: auto;
+	display: grid;
+	grid-template-columns:60% 40%;
+
+}
+.right5{
+	width: 100%;
+	border: 1px solid;
+}
+.ftintuyendung li{
+	list-style-type: none;
+	margin: 3%;
+}
+.ftintuyendung img{
+	float: left;
+	width:63px;
+	height: 63px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.inforttd{
+	float: left;
+	width: 70%;
+}
+.ftintuyendung ul{
+	padding-left: 0%;
+
+}
+.inforttd p{
+	margin:0%;
+}
+.htintuyendung h2{
+	background-image: url(ckkiconbg.png);
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	height: 44px;
+	padding-top: 9px;
+}
+.htintuyendung p{
+	padding-left: 16%;
+    margin-top: -35px;
+}
+.htintuyendung{
+	border-bottom: 1px dotted;
+}
+.left{
+	width: 100%;
+	border: 1px solid;
+}
+.ftintucsukien img{
+	width: 40%;
+	float: left;
+	margin-top: 3%;
+}
+.inforttsk{
+	width: 55%;
+	float: left;
+	margin-left: 3%;
+
+}
+.htintucsukien h2{
+	background-image: url(ckkiconbg.png);
+	background-repeat: no-repeat;
+	padding-left: 60px;
+	height: 44px;
+	padding-top: 9px;
+}
+.htintucsukien p{
+	padding-left: 11%;
+    margin-top: -35px;
+}
+.htintucsukien{
+	border-bottom: 1px dotted;
+}
+.tintucdadua{
+	width: 100%;
+}
+.ftintucdadua{
+	display: inline-table;
+}
+/*.ftintucdadua li{
+	width: 48%;
+}*/
+.ftintucdadua img{
+	max-width: 23%;
+	float: left;
+
+}
+.ttdditemfont{
+	float: left;
+	width: 23%;
+	padding-left:2%;
+	line-height: 15px;
+    margin-top: -3%;
+}
+.ftintucdadua li{
+	list-style-type: none;
+}
+.ftintucdadua ul{
+	padding-left: 0%;
+}

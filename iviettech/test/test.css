@@ -1,0 +1,105 @@
+.container{
+	width: 80%;
+	box-shadow: 3px 3px 3px blue;
+	border:1px solid;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns:65% 35%;
+	grid-template-areas: 
+	"trai phai";
+}
+.grid1{
+	grid-area: trai;/*
+	border:1px solid;*/
+	display: grid;
+
+}
+.grid2{
+	grid-area: phai;/*
+	border:1px solid;*/
+}
+.grid2 img{
+		border: 1px dotted red;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+		margin-top: 5%;
+}
+
+@media screen and (max-width: 768px) {
+	.container{
+		width: 100%;
+		display: grid;
+		grid-template-rows: 2,auto;
+		grid-template-columns: 100%;
+		grid-template-areas: 
+		"trai"
+		"phai"
+		;
+	}
+	.grid2 img{
+		max-width: 100%;
+	}
+}
+label{
+	font-weight: bold;
+}
+.grid12{
+	display: grid;
+	grid-template-columns:20% 80%;
+	border-bottom: 1px dotted gray;
+	border-top: 1px dotted gray;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.input{text-align: right;
+}
+input{
+	width: 50%;
+	box-shadow: 2px 2px 2px gray;
+	height: 25px;
+}
+select{
+	width: 100%;
+	height: 30px
+}
+textarea{
+	width: 100%;
+}
+span{
+	color: red;
+
+}
+button{
+	background-color: red;
+	border:1px solid blue;
+	align-content: right;
+	float: right;
+	width: 80px;
+	height: 30px;
+	box-shadow: 2px 2px 2px;
+	border-radius: 2px 2px 2px;
+}
+.clear{
+	clear: both;
+}
+form{
+	margin: 2%;
+}
+.grid11{
+	padding-left: 2%;
+	padding: 2%;
+}
+.grid11 h2{
+	background-image: url(icon.png);
+	background-repeat: no-repeat;
+	padding-left: 60px;
+}
+.grid13{
+	padding: 2%;
+}
+.grid14{
+	text-align: center;
+	color: red;
+	font-weight:bold;
+}

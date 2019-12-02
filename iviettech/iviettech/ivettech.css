@@ -1,0 +1,115 @@
+.container{
+	width: 100%;
+	margin: auto;
+}
+.clear{
+	clear: both;
+}
+/*..................CSS cua header*/
+
+.header{
+	width: 80%;
+	margin: auto;
+}
+.menubar img{
+	float: left;
+	margin-right: 1%;
+}
+.menubar{
+	margin-left: 10%;
+
+}
+#menu{
+	padding-top: 2%;
+}
+#menu>li{
+	float: left;
+	margin-right: 1%;
+	border-right: 2px solid #ccc;
+	padding-right: 1%;
+
+}
+.menubar{
+	background-color: gray;
+}
+ul{
+	list-style-type: none;
+
+
+}
+li a{
+	text-decoration: none;
+}
+#menu{
+	position: relative;
+}
+.menu-1{
+	position: absolute;
+	display: none;
+	padding-left: 0%;
+	top:20px;
+}
+#menu>li:hover .menu-1{
+	display: block;
+}
+.menu-1>li{
+	position: relative;
+	padding: 4.1%;
+	width: 100%;
+	border: 1px solid;
+	margin: 1%;
+}
+.menu-2{
+	position: absolute;
+	display: none;
+	left: 100%;
+	width: 180%;
+	padding-left:0%;
+	top:-3px;
+}
+.menu-2>li{
+	padding: 2%;
+	border: 1px solid;
+	margin: 1%;
+}
+.menu-1>li:hover .menu-2{
+	display: block;
+}
+.menu-3{
+	position: absolute;
+	display: none;
+	left: 100%;
+	width: 180%;
+	padding-left:0%;
+	top:-3px;
+}
+.menu-3>li{
+	padding: 2%;
+	border: 1px solid;
+	margin: 1%;
+}
+.menu-1>li:hover .menu-3{
+	display: block;
+}
+.menu-4{
+	position: absolute;
+	display: none;
+	left: 100%;
+	width: 180%;
+	padding-left:0%;
+	top:-3px;
+}
+.menu-4>li{
+	padding: 2%;
+	border: 1px solid;
+	margin: 1%;
+}
+.menu-1>li:hover .menu-4{
+	display: block;
+}
+#menu li a:hover{
+	color: red;
+}
+/*..................CSS cua content*/
+
+/*..................CSS cua footer*/
